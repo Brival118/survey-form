@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="title">Mbah Brival survey form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve this platform
+    </p>
+    <div id="form-body">
+    <form id="survey-form">
+      <label for="name" id="name-label">
+        <p>Name:</p>
+      </label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <label for="email" id="email-label">
+        <p>Email:</p>
+      </label>
+      <input type="email" id="email" placeholder="enter your email" required />
+      <label for="age" id="age-label">
+        <p>Age:</p>
+      </label>
+      <input
+        type="number"
+        id="age"
+        placeholder="Age"
+        min="12"
+        max="70"
+      />
+      <p>
+        which things do you think make Brival a better person than the others
+      </p>
+      <select name="" id="dropdown">
+        <option value="default">nothing</option>
+        <option value="He stands for something">He stands for something</option>
+        <option value="He understands the cruelty of the world">
+          He understands the cruelty of this world
+        </option>
+        <option value="practices">practices</option>
+        <option value="inluential">influential</option>
+      </select>
+      <p>which character do you like most from him</p>
+      <input type="radio" value="1" name="character">ego</input> <br>
+      <input type="radio" value="2" name="character">care</input> <br>
+      <input type="radio" value="3" name="character">responsibility</input> <br>
+      <input type="radio" value="4" name="character">trustworthiness</input> <br>
+      <input type="radio" value="5" name="character">respect</input> <br>
+      <p>Which of his siblings do you like</p>
+      <input type="checkbox" name="siblings" value="1">Pride</input> <br>
+      <input type="checkbox" name="siblings" value="2">Joel</input> <br>
+      <input type="checkbox" name="siblings" value="3">Sharon</input> <br>
+      <input type="checkbox" name="siblings" value="4">Kendrick</input> <br>
+      <input type="checkbox" name="siblings" value="5">Eloi</input> <br>
+      <textarea name="comments" id="comments" cols="40" rows="4" placeholder="enter comment here..">Any suggestions?</textarea>
+      <input type="submit" value="submit " id="submit">
+
+
+    </form>
+</div>
+
+  </body>
+</html>
